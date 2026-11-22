@@ -10,6 +10,8 @@
   <a href="#project-structure">Structure</a>
 </p>
 
+> **Credit:** BareNet was built as an NYU team project. This is a fork of the team repository, [dq2024/baranet-bdml](https://github.com/dq2024/baranet-bdml), and builds on the course's starter code (see the note below).
+
 ---
 
 **BareNet** (`baranet-bdml`) is a from-scratch deep-learning stack: a **C++/CUDA** tensor runtime exposed to Python via **pybind11**, plus a small **reverse-mode autograd** engine in pure Python. It is designed for learning how frameworks like PyTorch are built—memory layout, GPU kernels, broadcasting, reductions, and backprop—without hiding the details behind a black box.
